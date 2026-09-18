@@ -1,0 +1,16 @@
+/* seleccção de elementos */
+li {
+    color: blue;
+}
+
+/* seleccção de class */
+.done {
+    color: gray;
+}
+
+
+/* seleccção de id */
+#clear {
+    background-color: red;
+    color: white;
+}
