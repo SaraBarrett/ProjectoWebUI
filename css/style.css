@@ -1,10 +1,25 @@
-body{
-    background-color: antiquewhite;
+/*  mudar o tipo de letra de toda a página  */
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-
 
 p {
     background-color: aquamarine;
     color: brown;
+}
+
+section {
+    text-align: center;
+}
+
+
+/* sublinha a verde */
+h3 {
+    text-decoration: underline green;
+}
+
+
+/* retira o sublinhado dos links */
+a {
+    text-decoration: none;
 }

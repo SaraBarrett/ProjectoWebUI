@@ -1,0 +1,21 @@
+/* exercício de cores */
+
+
+h1 {
+    color: #06402B;
+}
+
+h2 {
+    color: #8B008B;
+}
+
+p {
+    color: #FFFDD0;
+    background: #28282B;
+}
+
+
+button {
+    color: #800020;
+    background-color: #FF00BF;
+}
