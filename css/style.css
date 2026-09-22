@@ -48,6 +48,51 @@ a[href*="IEFP"] {
     color: #3a8c64;
 }
 
-a:hover{
+a:hover {
     color: black
+}
+
+/* criar uma secção e aplicar a box model */
+#world-cup {
+    background-color: cadetblue;
+    width: 200px;
+    height: 150px;
+    text-align: left;
+
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 20px; */
+
+    padding: 10px 10px 10px 20px;
+
+    /* aplicar o mesmo padding a toda a box 
+    padding: 10px; */
+
+    /* margens */
+    margin: 5px auto 5px auto;
+    border: solid;
+    display: inline-block;
+}
+
+#modules {
+    background-color: rosybrown;
+    width: 250px;
+    height: 150px;
+    text-align: left;
+
+    padding: 10px 10px 10px 20px;
+
+
+
+    /* margens */
+    /* margin: 15px auto 5px auto; */
+    border: solid;
+    display: inline-block;
+}
+
+
+
+#lists{
+   text-align: center;
 }
