@@ -9,6 +9,10 @@ h3 {
     color: brown;
 }
 
+img {
+    display: none;
+}
+
 
 
 section {
@@ -93,6 +97,49 @@ a:hover {
 
 
 
-#lists{
-   text-align: center;
+#lists {
+    text-align: center;
+}
+
+
+/* media queries
+media query para impressões */
+@media print {
+    nav {
+        display: none;
+    }
+
+    p,
+    h3 {
+        background-color: #ffffff;
+        color: #000000;
+    }
+
+}
+
+
+/* media para mobile */
+@media (min-width: 500px) {
+    img {
+        display: block;
+    }
+
+    p,
+    h3 {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
+
+/* media para min 1000px */
+@media (min-width: 1000px) {
+    img {
+        display: block;
+    }
+
+    p,
+    h3 {
+        background-color: green;
+        color: #000000;
+    }
 }

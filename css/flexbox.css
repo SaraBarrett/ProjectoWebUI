@@ -13,11 +13,16 @@ h1 {
     margin: 0 auto;
     border: 5px solid #003049;
     justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+
 }
 
 #container div {
     width: 200px;
     height: 200px;
+
 }
 
 #one {
@@ -38,4 +43,12 @@ h1 {
 
 #five {
     background-color: #6930c3;
+}
+
+
+/* media para desktop */
+@media (min-width: 500px) {
+    #container {
+        flex-direction: row;
+    }
 }
